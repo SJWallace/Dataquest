@@ -1,0 +1,485 @@
+
+        digraph G {
+            splines=line;
+            nodesep=0.1;
+            ranksep=.2;
+            rankdir=TD;
+            margin=0.0;
+            graph [label="Final Decision Tree (Layers 0 to 6)", labelloc=t, fontname="Arial" fontsize=20 fontcolor="#444443"];
+            node [margin="0.03" penwidth="0.5" width=.1, height=.1];
+            edge [arrowsize=.4 penwidth="0.3"]
+
+            node50 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@1200.00</font>>]
+	node45 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">targeted_productivity@0.78</font>>]
+	node43 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@9.00</font>>]
+	node44 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@2640.00</font>>]
+	node3 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@1530.00</font>>]
+	node11 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">wip@1544.00</font>>]
+	node9 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@8220.00</font>>]
+	node33 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">wip@465.50</font>>]
+	node10 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">targeted_productivity@0.72</font>>]
+	node8 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@29.75</font>>]
+	node5 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@17.16</font>>]
+	node21 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@1200.00</font>>]
+	node15 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@9.00</font>>]
+	node17 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@4.38</font>>]
+	node18 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@8550.00</font>>]
+	node16 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@8.50</font>>]
+	node13 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">targeted_productivity@0.67</font>>]
+	node53 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@2040.00</font>>]
+	node51 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@13.00</font>>]
+	node14 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@4.87</font>>]
+	node6 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">targeted_productivity@0.72</font>>]
+	node4 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">department_finishing@0.50</font>>]
+	node1 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@3.40</font>>]
+	node63 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@3000.00</font>>]
+	node69 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@6060.00</font>>]
+	node67 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@53.50</font>>]
+	node92 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">wip@1009.50</font>>]
+	node68 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">targeted_productivity@0.78</font>>]
+	node64 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@54.75</font>>]
+	node27 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@3540.00</font>>]
+	node29 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@6210.00</font>>]
+	node28 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">targeted_productivity@0.78</font>>]
+	node25 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@29.75</font>>]
+	node115 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">smv@11.51</font>>]
+	node85 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@31.75</font>>]
+	node96 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">over_time@7020.00</font>>]
+	node89 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">incentive@61.50</font>>]
+	node87 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">wip@1057.00</font>>]
+	node86 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">wip@1092.50</font>>]
+	node26 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">no_of_workers@57.75</font>>]
+	node2 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">incentive@47.50</font>>]
+	node0 [margin="0" shape=none label=<<font face="Arial" color="#444443" point-size="12">incentive@11.50</font>>]
+            node50 -> leaf113 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node50 -> leaf114 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf113 -> leaf114 [style=invis]
+                    }
+                    
+	node45 -> leaf49 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node45 -> node50 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf49 -> node50 [style=invis]
+                    }
+                    
+	node43 -> node45 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node43 -> leaf46 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node45 -> leaf46 [style=invis]
+                    }
+                    
+	node44 -> leaf47 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node44 -> leaf48 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf47 -> leaf48 [style=invis]
+                    }
+                    
+	node3 -> node43 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node3 -> node44 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node43 -> node44 [style=invis]
+                    }
+                    
+	node9 -> node11 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node9 -> leaf12 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node11 -> leaf12 [style=invis]
+                    }
+                    
+	node10 -> node33 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node10 -> leaf34 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node33 -> leaf34 [style=invis]
+                    }
+                    
+	node8 -> node9 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node8 -> node10 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node9 -> node10 [style=invis]
+                    }
+                    
+	node5 -> leaf7 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node5 -> node8 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf7 -> node8 [style=invis]
+                    }
+                    
+	node15 -> node21 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node15 -> leaf22 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node21 -> leaf22 [style=invis]
+                    }
+                    
+	node16 -> node17 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node16 -> node18 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node17 -> node18 [style=invis]
+                    }
+                    
+	node13 -> node15 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node13 -> node16 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node15 -> node16 [style=invis]
+                    }
+                    
+	node51 -> node53 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node51 -> leaf54 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node53 -> leaf54 [style=invis]
+                    }
+                    
+	node14 -> node51 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node14 -> leaf52 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node51 -> leaf52 [style=invis]
+                    }
+                    
+	node6 -> node13 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node6 -> node14 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node13 -> node14 [style=invis]
+                    }
+                    
+	node4 -> node5 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node4 -> node6 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node5 -> node6 [style=invis]
+                    }
+                    
+	node1 -> node3 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node1 -> node4 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node3 -> node4 [style=invis]
+                    }
+                    
+	node63 -> leaf65 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node63 -> leaf66 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf65 -> leaf66 [style=invis]
+                    }
+                    
+	node67 -> node69 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node67 -> leaf70 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node69 -> leaf70 [style=invis]
+                    }
+                    
+	node68 -> leaf91 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node68 -> node92 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf91 -> node92 [style=invis]
+                    }
+                    
+	node64 -> node67 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node64 -> node68 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node67 -> node68 [style=invis]
+                    }
+                    
+	node27 -> node63 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node27 -> node64 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node63 -> node64 [style=invis]
+                    }
+                    
+	node29 -> leaf99 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node29 -> leaf100 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf99 -> leaf100 [style=invis]
+                    }
+                    
+	node28 -> node29 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node28 -> leaf30 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node29 -> leaf30 [style=invis]
+                    }
+                    
+	node25 -> node27 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node25 -> node28 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node27 -> node28 [style=invis]
+                    }
+                    
+	node115 -> leaf117 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node115 -> leaf118 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf117 -> leaf118 [style=invis]
+                    }
+                    
+	node85 -> node115 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node85 -> leaf116 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node115 -> leaf116 [style=invis]
+                    }
+                    
+	node89 -> leaf95 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node89 -> node96 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf95 -> node96 [style=invis]
+                    }
+                    
+	node87 -> node89 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node87 -> leaf90 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node89 -> leaf90 [style=invis]
+                    }
+                    
+	node86 -> node87 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node86 -> leaf88 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node87 -> leaf88 [style=invis]
+                    }
+                    
+	node26 -> node85 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node26 -> node86 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node85 -> node86 [style=invis]
+                    }
+                    
+	node2 -> node25 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node2 -> node26 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node25 -> node26 [style=invis]
+                    }
+                    
+	node0 -> node1 [penwidth=0.3 fontname="Arial" color="#444443" label=<  &le;> fontcolor="#444443"]
+	node0 -> node2 [penwidth=0.3 fontname="Arial" color="#444443" label=<  &gt;> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node1 -> node2 [style=invis]
+                    }
+                    
+            leaf49 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf49_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf113 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf113_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf114 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf114_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf46 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf46_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf47 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf47_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf48 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf48_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf7 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf7_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf12 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf12_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf34 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf34_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf22 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf22_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf54 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf54_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf52 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf52_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf65 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf65_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf66 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf66_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf70 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf70_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf91 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf91_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf99 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf99_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf100 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf100_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf30 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf30_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf117 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf117_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf118 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf118_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf116 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf116_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf95 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf95_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf90 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf90_39704.svg"/></td>
+                </tr>
+                </table>>]
+	leaf88 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\User\AppData\Local\Temp\leaf88_39704.svg"/></td>
+                </tr>
+                </table>>]
+
+            
+                    subgraph cluster_legend {
+                        style=invis;
+                        legend [penwidth="0" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                        
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td border="0" cellspacing="0" cellpadding="0"><img src="C:\Users\User\AppData\Local\Temp\legend_39704.svg"/></td>
+                    </tr>
+                </table>
+                
+                        >]
+                    }
+                    
+            
+        }
+            
