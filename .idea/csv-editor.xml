@@ -3,21 +3,14 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\User\Downloads\Indian_IPO_Market_Data.csv">
+        <entry key="\Predicting Insurance Costs\insurance.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Guided Project - Optimising Model Prediction\fires.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\Guided Project - Predicting Employee Producitivty Using Tree Models\garments_worker_productivity.csv">
+        <entry key="\Spark\recent-grads.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
